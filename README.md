@@ -26,7 +26,7 @@ A command-line to-do list application built with Python. Manage your tasks with 
 
 2. Install dependencies:
    ```bash
-   pip install colorama
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -34,7 +34,7 @@ A command-line to-do list application built with Python. Manage your tasks with 
 Run the application:
 
 ```bash
-python main.py
+python src/main.py
 ```
 
 You will be presented with a menu:
@@ -77,14 +77,22 @@ Select option `6` to save all tasks and exit.
 
 ## Data Storage
 
-Tasks are saved automatically to a `tasks.json` file in the project directory. They are loaded back when the app starts, so your tasks persist between sessions.
+Tasks are saved automatically to `data/tasks.json`. They are loaded back when the app starts, so your tasks persist between sessions.
 
 ## Project Structure
 
 ```
-.
-├── main.py       # Entry point and menu logic
-├── manaber.py    # TaskManager class (add, list, sort, save, load)
-├── task.py       # Task class and serialization
-└── tasks.json    # Auto-generated task storage file
+<LastName_FirstName>_FinalProject/
+├── README.md            # Project overview, features, and setup guide
+├── requirements.txt     # External dependencies
+├── src/                 # All Python source files
+│   ├── main.py          # Entry point and menu logic
+│   ├── manaber.py       # TaskManager class (add, list, sort, save, load)
+│   └── task.py          # Task class and serialization
+└── data/                # Persistent task storage
+    └── tasks.json       # Auto-generated task file
 ```
+
+## Demo
+
+YouTube URL: <!-- Add your YouTube demo link here -->
