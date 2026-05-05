@@ -1,8 +1,0 @@
-uploads = []
-generated = []
-
-[[outputs]]
-id = "PrmD8Ehfwqv_02zgm4EcX"
-uri = "file://README.md"
-type = "text"
-title = "README.md"
