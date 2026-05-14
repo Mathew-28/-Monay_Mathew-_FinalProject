@@ -95,4 +95,4 @@ Tasks are saved automatically to `data/tasks.json`. They are loaded back when th
 
 ## Demo
 
-YouTube URL: <!-- Add your YouTube demo link here -->
+YouTube URL: https://youtu.be/Bd4kfzS5z60demo
